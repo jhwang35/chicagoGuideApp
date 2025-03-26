@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">A1project3</string>
+    <string name="b1">Attractions</string>
+    <string name="b2">Restaurants</string>
+    <string name="b1Text">The Attractions button will send out a broadcast to display information about five points of interest in the city of Chicago!</string>
+    <string name="b2Text">The Restaurants button will send out a broadcast to display 5 restaurants located in Chicago!</string>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">A2project3</string>
+    <string name="message">This is the main activity. \nWaiting for broadcast to be received.</string>
+</resources>
