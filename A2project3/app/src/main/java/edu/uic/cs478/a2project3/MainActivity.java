@@ -69,17 +69,6 @@ public class MainActivity extends AppCompatActivity {
             overflowIcon.setColorFilter(ContextCompat.getColor(this, R.color.white), PorterDuff.Mode.SRC_ATOP);
         }
 
-        // Initialize button and set its click listener
-        Button attractionButton = findViewById(R.id.b1);
-        attractionButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // Start AttractionActivity when the button is clicked
-                Intent intent = new Intent(MainActivity.this, AttractionActivity.class);
-                startActivity(intent);
-            }
-        });
-
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
